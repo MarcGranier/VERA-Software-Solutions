@@ -44,7 +44,7 @@
 	width: 24ps;
 }
 
-// Video Play Button
+//Video Play Button
 .video-play-button {
 	position: absolute;
 	z-index: 10;
@@ -100,7 +100,7 @@
 	left: 4px;
 	width: 0;
 	height: 0;
-	//Draw Button
+	//Draw triangle
 	border-left: 26px solid #fff;
 	border-top: 16px solid transparent;
 	border-bottom: 16px solid transparent;
@@ -116,11 +116,6 @@
 		transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
 		opacity: 0;
 	}
-}
-
-.video-modal .modal-dialog {
-	max-width: 1150px;
-	margin-top: 20px;
 }
 
 @media (max-width: 992px) {
